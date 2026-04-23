@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "cursor-github": {
+      "url": "https://server.smithery.ai/smithery-ai/github?githubPersonalAccessToken=REPLACE_WITH_GITHUB_PAT"
+    }
+  }
+}
