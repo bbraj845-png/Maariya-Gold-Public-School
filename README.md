@@ -1,5 +1,5 @@
 
-  # Premium School Website Design
+  # Maariya Gold Public School
 
   This is a code bundle for Premium School Website Design. The original project is available at https://www.figma.com/design/Ls1PBJZ8Y1wwVBT3miw2b2/Premium-School-Website-Design.
 
