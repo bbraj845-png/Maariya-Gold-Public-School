@@ -7,7 +7,6 @@ import {
 } from "lucide-react";
 import { ScrollReveal, SectionHeading } from "../components/ScrollReveal";
 import { ImageWithFallback } from "../components/figma/ImageWithFallback";
-import { PosterPopup } from "../components/PosterPopup";
 import schoolHeroImg from "figma:asset/0d8d15182ce0d9170e8fa95340926f89b3570e2a.png";
 import sportsImg from "figma:asset/32eccfe2cf6682c9de621a90007519601ca7540b.png";
 import artsImg from "figma:asset/15facb40bed45609cb8a94018fa87c556f9f79d3.png";
@@ -15,7 +14,7 @@ import scienceExhibitionImg from "figma:asset/03eac904f5ce2079033ef9319c8492e1f3
 import votingRightsImg from "figma:asset/f53c3431e400241443a50a21e29a39c8b7fcbb11.png";
 import teacherTrainingImg from "figma:asset/0a03d1ab309297669a26dd44c7b977148f0d16cc.png";
 
-// ── Image URLs ──────────────────────────────────────────────────────────────
+// ── Image URLs ──────────────────────────────────────────────────────────…[...]
 const CLASSROOM_IMG = "https://images.unsplash.com/photo-1758270704534-fd9715bffc0e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=800&q=80";
 const ROBOTICS_IMG = "https://images.unsplash.com/photo-1743677077216-00a458eff9e0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=800&q=80";
 const LIBRARY_IMG = "https://images.unsplash.com/photo-1602114324271-08ea0e9f7a95?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=800&q=80";
@@ -61,7 +60,7 @@ const WHY_ITEMS = [
   },
 ];
 
-// ── Stats ────────────────────────────────────────────────────────────────────
+// ── Stats ────────────────────────────────────────────────────────────[...]
 const STATS = [
   { value: "2,000+", label: "Happy Students" },
   { value: "26+", label: "Years of Excellence" },
@@ -69,11 +68,11 @@ const STATS = [
   { value: "98%", label: "Parent Satisfaction" },
 ];
 
-// ── FAQs ─────────────────────────────────────────────────────────────────────
+// ── FAQs ────────────────────────────────────────────────────────────…[...]
 const FAQS = [
   {
     q: "What is the admission process at Maariya Gold Public School?",
-    a: "Our admission process is simple: Enquire online or visit the campus → Interaction & assessment → Document submission → Fee payment & enrollment. We welcome students from Nursery to Class X.",
+    a: "Our admission process is simple: Enquire online or visit the campus → Interaction & assessment → Document submission → Fee payment & enrollment. We welcome students from Nursery to C[...]
   },
   {
     q: "Is Maariya Gold Public School affiliated with CBSE?",
@@ -198,7 +197,6 @@ export default function HomePage() {
 
   return (
     <div>
-      <PosterPopup />
       {/* ── HERO SECTION ─────────────────────────────────────────────────── */}
       <section className="relative min-h-[88vh] md:min-h-screen flex items-center overflow-hidden">
         {/* ── Background: actual school photo ── */}
@@ -307,7 +305,7 @@ export default function HomePage() {
                 className="text-base md:text-lg leading-relaxed mb-8"
                 style={{ color: "rgba(255,255,255,0.8)", fontFamily: "var(--font-sans)", maxWidth: "480px" }}
               >
-                Nurturing bright minds since 2000 in Maruti Kunj, Bhondsi. A CBSE school where academic rigour meets holistic growth — modern facilities, expert teachers, and a campus where every child thrives.
+                Nurturing bright minds since 2000 in Maruti Kunj, Bhondsi. A CBSE school where academic rigour meets holistic growth — modern facilities, expert teachers, and a campus where eve[...]
               </motion.p>
 
               <motion.div
@@ -665,7 +663,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── FAQs ─────────────────────────────────────────────────────────── */}
+      {/* ── FAQs ─────────────────────────────────────────────────────────…[...]
       <section className="py-16 md:py-24 px-4 sm:px-6 lg:px-8" style={{ background: "#FDFBF7" }}>
         <div className="max-w-3xl mx-auto">
           <SectionHeading
